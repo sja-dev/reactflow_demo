@@ -1,0 +1,33 @@
+.target-node {
+    height: 100px;
+    width: 150px;
+    border: 2px solid #00DE25;
+    padding: 5px;
+    border-radius: 5px;
+    background: #0A0A0A;
+    text-align: center;
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: bold;
+}
+
+.target-node label {
+    display: block;
+    color: #00DE25;
+    font-size: 20px;
+    text-align: center;
+}
+
+.target-node:hover {
+    border: 2px solid #D6DE00;
+}
+
+.target-node_input {
+    width: 130px;
+    text-align: 'center';
+    background: #0A0A0A;
+    border: 1.5px solid #00DE25;
+    border-radius: 3px;
+    color: #00DE25;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 10px;
+}
