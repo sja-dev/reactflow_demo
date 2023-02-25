@@ -15,13 +15,13 @@ import DatasetNode from './nodes/startpoint/dataset/DatasetNode.js';
 import TargetNode from './nodes/preprocessing/target/TargetNode.js';
 import ImportNode from './nodes/startpoint/import/ImportNode.js';
 import ModifierNode from './nodes/preprocessing/modifier/ModifierNode.js';
-import ModelNode from './nodes/model/model/ModelNode.js';
+import ModelNode from './nodes/training/model/ModelNode.js';
 
 import './nodes/startpoint/dataset/dataset-node.css';
 import './nodes/preprocessing/target/target-node.css';
 import './nodes/startpoint/import/import-node.css';
 import './nodes/preprocessing/modifier/modifier-node.css';
-import './nodes/model/model/model-node.css';
+import './nodes/training/model/model-node.css';
 
 const initialNodes = [
   {

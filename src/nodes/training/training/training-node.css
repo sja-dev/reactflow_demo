@@ -1,0 +1,60 @@
+.dataset-node {
+    height: 70px;
+    width: 150px;
+    border: 2px solid #00DE25;
+    padding: 5px;
+    border-radius: 5px;
+    background: #0A0A0A;
+    text-align: center;
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: bold;
+  }
+  
+  .dataset-node_label {
+    display: block;
+    color: #00DE25;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .dataset-node:hover {
+    border: 2px solid #D6DE00;
+    color: #D6DE00;
+  }
+  
+  .dataset-node:hover .dataset-node_label {
+    color: #D6DE00;
+  }
+  
+  .dataset-node:hover .dataset-node_upload {
+    color: #D6DE00;
+    border: 1px solid #D6DE00;
+  }
+  
+  .dataset-node:hover .dataset-node_upload:hover {
+    background-color: #D6DE00;
+    color: #000;
+  }
+  
+  .dataset-node_upload {
+    width: 100px;
+    height: 20px;
+    background: #000;
+    border: 1px solid #00DE25;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #00DE25;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #file {
+    display: none;
+  }
+  
+  .dataset-node_tablesource {
+    height: 3px;
+  }
